@@ -1,0 +1,23 @@
+{
+  "name": "workspace",
+  "version": "1.0.0",
+  "description": "Node application that return JSON file metadata from upload file",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lequanghuylc/File-Metadata-Microservice-API.git"
+  },
+  "author": "Le Quang Huy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lequanghuylc/File-Metadata-Microservice-API/issues"
+  },
+  "homepage": "https://github.com/lequanghuylc/File-Metadata-Microservice-API#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "multer": "^1.2.0"
+  }
+}
