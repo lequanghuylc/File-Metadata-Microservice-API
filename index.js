@@ -10,5 +10,5 @@ app.post("/get-file-size", upload.single('foo'), function(req, res){
         "size": req.file.size
     }));
 });
-
-app.listen(8080);
+var port = process.env.PORT || 8080;
+app.listen(port);
